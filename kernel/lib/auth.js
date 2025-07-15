@@ -7,6 +7,7 @@ exports.sign = function (userInfo, expiresIn) {
 	})
 }
 
+
 // resolve token to object data
 exports.verify = (token) =>
 	new Promise((resolve, reject) => {
